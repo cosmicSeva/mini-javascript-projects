@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock-paper-scissor</title>
+    <link rel="stylesheet" href="/rock-paper-scissor/style.css">
+</head>
+
+<body>
+    <h1>Rock-Paper-Scissor</h1>
+    <h3 id="mode">Mode: Default</h3>
+
+    <section id="game">
+        <div class="div" id="rock">
+            <img src="rock.png">
+        </div>
+        <div class="div" id="paper">
+            <img src="paper.png">
+        </div>
+        <div class="div" id="scissor">
+            <img src="scissors.png">
+        </div>
+    </section>
+    <div >
+        <span class="score" id="userScore">0</span>
+        <span class="score" id="compScore">0</span>
+    </div>
+    <div>
+        <span class="name">YOU</span>
+        <span class="name">COMP</span>
+    </div>
+    <div class="controls">
+    <span id="message">Pick your move</span>
+    <button id="reset">reset game</button>
+    <button id="bestOf3">best of 3</button>
+    </div>
+
+
+    <script src="/rock-paper-scissor/app.js"></script>
+</body>
+
+</html>

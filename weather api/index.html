@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/weather api/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="search-box">
+            <input type="text" placeholder="Search city...">
+            <button>🔍</button>
+        </div>
+
+        <div class="weather-card">
+            <!--city name-->
+            <h2>New Delhi</h2>
+            <div class="weather-icon">☀️</div>
+            <h1>31°C</h1>
+            <p>Sunny</p>
+
+            <div class="details">
+                <div>
+                    <span>💧</span>
+                    <p>65%</p>
+                    <small>Humidity</small>
+                </div>
+
+                <div>
+                    <span>🌬️</span>
+                    <p>12 km/h</p>
+                    <small>Wind</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="hourly-forecast">
+            <h3>Today</h3>
+
+            <div class="hours">
+                <div class="hour">
+                    <p>10 AM</p>
+                    <span>☀️</span>
+                    <p>30°</p>
+                </div>
+
+                <div class="hour">
+                    <p>1 PM</p>
+                    <span>🌤️</span>
+                    <p>33°</p>
+                </div>
+
+                <div class="hour">
+                    <p>4 PM</p>
+                    <span>☀️</span>
+                    <p>31°</p>
+                </div>
+
+                <div class="hour">
+                    <p>7 PM</p>
+                    <span>🌥️</span>
+                    <p>28°</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="forecast">
+            <h3>7-Day Forecast</h3>
+
+            <div class="day">
+                <span>Mon</span>
+                <span>☀️</span>
+                <span>32° / 24°</span>
+            </div>
+
+            <div class="day">
+                <span>Tue</span>
+                <span>🌤️</span>
+                <span>31° / 23°</span>
+            </div>
+
+            <div class="day">
+                <span>Wed</span>
+                <span>🌧️</span>
+                <span>28° / 21°</span>
+            </div>
+        </div>
+
+    </div>
+<script src="/weather api/weather.js"></script>
+</body>
+</html>
